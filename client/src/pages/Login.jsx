@@ -21,7 +21,7 @@ const Login = () => {
     })
   }
 
-  const URI = "http://localhost:5000/api/auth/login";
+  const URI = "https://mern-practise-op1l.onrender.com/api/auth/login";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
