@@ -9,7 +9,7 @@ const connectDb = require("./utilis/db");
 
 // handling cors policy
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://mern-practise-op1l.onrender.com",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credential: true
 }
