@@ -23,7 +23,7 @@ const register = () => {
     });
   };
 
-  const URI = "http://localhost:5000/api/auth/register";
+  const URI = "https://mern-practise-op1l.onrender.com/api/auth/register";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
