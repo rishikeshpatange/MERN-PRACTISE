@@ -18,7 +18,7 @@ const Contact = () => {
     });
   };
 
-  const URI = "http://localhost:5000/api/form/contact";
+  const URI = "https://mern-practise-op1l.onrender.com/api/form/contact";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
